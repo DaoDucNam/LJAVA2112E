@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+<title>Baiso13</title>
+<style>
+    *{
+        margin: 0;
+    }
+    *{box-sizing: border-box;
+    }
+    .upper {
+        display: flex;
+    }
+
+    .left-upper {
+        color: white;
+        background-image: url("../JS/film3.jpg");
+        background-color: black;
+        width: 35%;
+        height: 500px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: flex-end;
+    
+    }
+    
+    .button-left-upper button {
+        color: white;
+        padding: 10px;
+        width: 200px;
+        margin: 8px;
+    }
+     #watch {background-color: red;
+        color: whitesmoke;
+        font-size: medium;
+     }
+
+     #signin {background-color: whitesmoke;
+        color:black;
+        font-size: medium;
+     }
+
+    .right-upper {
+        color: white;
+        background-image: url(../JS/film1.jpg);
+        background-color: blueviolet;
+        width: 65%;
+        height: 500px;
+    }
+
+   .social { 
+       float: left;
+        padding-left: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items:flex-end;
+   }
+
+    .lower {
+        display: flex;
+        flex-wrap: wrap;
+    }
+   .left-lower { 
+       background-color:rgb(131, 131, 131);
+       height: 250px;
+       width: 300px;
+       border-right: 2px solid whitesmoke;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       font-size: 150px;
+       color: white;
+   }
+   .right-lower {
+       color: whitesmoke;
+       background-color: rgb(131, 131, 131);
+       width: calc(100% - 300px);
+       font-family: sans-serif;
+       font-size: 15px;
+   }
+   .right-lower2 {
+       margin-left: 40px;
+   }
+
+     /* Hinh tron */
+
+     #box-comment .box-white {
+        margin-top: 450px;
+      width: 150px;
+      background: white;
+      min-height: 45px;
+      padding: 5px;
+      display: flex;
+      justify-content: flex-end;
+      align-items: flex-end;
+    }
+
+    #box-comment .box-white .circle {
+      height: 20px;
+      width: 20px;
+      border-radius: 50%;
+      margin: 3px;
+      border: #070707;
+    }
+
+    #box-comment .box-white .circle:nth-child(1) {
+      background: #070707;
+    }
+
+    #box-comment .box-white .circle:nth-child(2) {
+      background: #070707;
+    }
+
+    #box-comment .box-white .circle:nth-child(3) {
+      background: rgb(222, 227, 231);
+    }
+
+    #box-comment .box-white .circle:nth-child(4) {
+      background: #070707;
+    }
+    #box-comment .box-white .circle:nth-child(5) {
+      background: #070707;
+    }
+
+        @media screen and (max-width: 998px) {
+            .upper{
+                width: 50%;
+                height: 500px;
+            }
+            .lower{
+                width: 50%;
+                height: 500px;
+            }
+           
+        }
+
+        @media screen and (min-width: 998px) {
+            .upper{
+                width: 100%;
+                height: 500px;
+            }
+            .lower{
+                width: 100%;
+                height: 500px;
+            }
+            
+        }
+    
+</style>
+</head>
+
+<body>
+<!--Top Frame-->
+<div>
+    <div class="upper">
+        <div class="left-upper">
+            <h3>02.Eliet in The Movie</h3>
+            <br>
+            <div class="button-left-upper">
+            <button id="watch">Watch</button>
+            <br>
+            <button id="signin">Sign In</button>
+            <br>
+     <!--Social Group-->
+
+            <div class="social">
+      <a href="#">fa</a>
+      <a href="#">Ins</a>
+      <a href="#">You</a>
+            </div>
+        </div>
+</div>
+
+    <div class="right-upper">
+        <div id="box-comment">
+            <div class="box-white">
+              <div class="circle"></div>
+              <div class="circle"></div>
+              <div class="circle"></div>
+              <div class="circle"></div>
+              <div class="circle"></div>
+            </div>
+          </div>
+    </div>
+</div>
+
+<!--Foot Frame-->
+<div class="lower">
+    <div class="left-lower">
+        <span>02.</span>
+    </div>
+
+    <div class="right-lower">
+        <div class="right-lower-2">
+            <h1>02.Eliet in The Movie</h1>
+            <span >02/27/2023</span><br>
+            <strong>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</strong>
+
+        </div>
+    </div>
+</div>
+    
+<script>
+
+</script>
+
+</body>
+
+</html>
